@@ -43,7 +43,8 @@
 
 .headerContainer .rightSide img{
     height: 500px;
-    width: 400px;
+    width:fit-content;
     border-radius: 225px 225px 0 0;
-    background-color: black;
+    
+    object-position: center;
 }

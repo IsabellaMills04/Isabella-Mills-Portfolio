@@ -1,5 +1,6 @@
 import React from 'react'
 import '../styles/Home.css'
+import Isabella from '../assets/isabella.jpg'
 
 function Home() {
   return (
@@ -10,7 +11,7 @@ function Home() {
           <p>to my portfolio!</p>
         </div>
         <div className="rightSide">
-          <img/>
+          <img src={Isabella}/>
         </div>
       </div>
     </div>
