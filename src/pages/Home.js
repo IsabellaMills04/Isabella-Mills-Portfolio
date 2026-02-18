@@ -1,11 +1,18 @@
 import React from 'react'
+import '../styles/Home.css'
 
 function Home() {
   return (
-    <div>
-      <p>Hello World</p>
-      <p>30:25</p>
-      <p>https://www.youtube.com/watch?v=QwarZBtFoFA</p>
+    <div className="home">
+      <div className="headerContainer">
+        <div className="leftSide">
+          <h1>Welcome</h1>
+          <p>to my portfolio!</p>
+        </div>
+        <div className="rightSide">
+          <img/>
+        </div>
+      </div>
     </div>
   )
 }

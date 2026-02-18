@@ -1,9 +1,11 @@
 {
   "name": "isabella-mills-portfolio",
-  "homepage": "https://IsabellaMills04.github.io/Isabella-Mills-Portfolio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.1",
+    "@mui/material": "^7.3.8",
     "@testing-library/dom": "^10.4.1",
     "@testing-library/jest-dom": "^6.9.1",
     "@testing-library/react": "^16.3.2",
@@ -16,7 +18,7 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build -r https://github.com/IsabellaMills04/Isabella-Mills-Portfolio.git --dotfiles",
+    "deploy": "gh-pages -d build -r https://github.com/IsabellaMills04/Isabella-Mills-Portfolio.git",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",

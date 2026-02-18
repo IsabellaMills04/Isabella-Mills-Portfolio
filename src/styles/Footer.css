@@ -1,4 +1,4 @@
-.navbar {
+.footer {
     width: 100%;
     height: 100px;
     background-color: black;
@@ -10,7 +10,7 @@
     color: white;
 }
 
-.navbar .leftSide {
+.footer .leftSide {
     flex: 50%;
     height: 100%;
     display: flex;
@@ -18,11 +18,11 @@
     padding-left: 70px;
 }
 
-.navbar .leftSide p {
+.footer .leftSide p {
     font-size: 30px;
 }
 
-.navbar .rightSide {
+.footer .rightSide {
     flex: 50%;
     height: 100%;
     display: flex;
@@ -31,7 +31,7 @@
     padding-right: 70px;
 }
 
-.navbar a {
+.footer a {
     color: white;
     text-decoration: none;   
     margin: 20px; 
