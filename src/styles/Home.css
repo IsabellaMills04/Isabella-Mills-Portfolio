@@ -41,10 +41,15 @@
     width: 55%;
 }
 
-.headerContainer .rightSide img{
+.headerContainer .rightSide img {
     height: 500px;
     width:fit-content;
     border-radius: 225px 225px 0 0;
-    
+    box-shadow: 2px 2px 5px silver;
     object-position: center;
+    transition: scale 0.5s;
+}
+
+.headerContainer .rightSide img:hover {
+    scale: 1.02;
 }
