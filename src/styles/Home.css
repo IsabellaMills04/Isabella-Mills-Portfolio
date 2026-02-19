@@ -3,15 +3,16 @@
     height: 100%;
     display: flex;
     flex-direction: row;
-    font-family: "Roboto", sans-serif;
-    font-size: 14px;
 }
 
 .headerContainer {
     width: 100%;
-    height: 600px;
+    height: 500px;
     display: flex;
     flex-direction: row;
+    font-size: 14px;
+    
+    padding-bottom: 50px;
 }
 
 .headerContainer .leftSide, .headerContainer .rightSide{
@@ -22,7 +23,7 @@
 }
 
 .headerContainer .leftSide {
-    width: 45%;
+    width: 44%;
 }
 
 .headerContainer .leftSide p, .headerContainer .leftSide h1{
@@ -30,26 +31,36 @@
 }
 
 .headerContainer .leftSide h1{
-    font-size: 50px;
+    font-size: 60px;
+    font-family: "Montserrat", sans-serif;
+    color: #d2437a;
 }
 
 .headerContainer .leftSide p{
-    font-size: 24px;
+    font-size: 28px;
+    font-family: "Cherry Bomb One", system-ui;
+    letter-spacing: 1px;
+    margin-top: -10px;
+    color: #224653;
 }
 
 .headerContainer .rightSide {
-    width: 55%;
+    width: 56%;
 }
 
 .headerContainer .rightSide img {
+    position: absolute;
+    z-index: 2;
     height: 500px;
     width:fit-content;
     border-radius: 225px 225px 0 0;
-    box-shadow: 2px 2px 5px silver;
+    box-shadow: 30px 30px #224653;
     object-position: center;
     transition: scale 0.5s;
+    
 }
 
 .headerContainer .rightSide img:hover {
     scale: 1.02;
 }
+

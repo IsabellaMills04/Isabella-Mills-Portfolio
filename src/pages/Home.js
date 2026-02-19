@@ -11,7 +11,8 @@ function Home() {
           <p>to my portfolio!</p>
         </div>
         <div className="rightSide">
-          <img src={Isabella}/>
+            <img src={Isabella}/>
+            
         </div>
       </div>
     </div>
