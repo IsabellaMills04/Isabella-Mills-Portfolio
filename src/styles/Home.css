@@ -7,41 +7,52 @@
 
 .headerContainer {
     width: 100%;
-    height: 500px;
+    height: 525px;
     display: flex;
     flex-direction: row;
     font-size: 14px;
-    
-    padding-bottom: 50px;
+    padding-bottom: 75px;
 }
 
 .headerContainer .leftSide, .headerContainer .rightSide{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 10px
+    margin: 15px;
 }
 
 .headerContainer .leftSide {
     width: 44%;
+    margin-top: 100px;
 }
 
-.headerContainer .leftSide p, .headerContainer .leftSide h1{
+.headerContainer .leftSide h1, .headerContainer .leftSide h2, .headerContainer .leftSide p{
     text-align: right;
+    margin-left: 340px;
 }
 
 .headerContainer .leftSide h1{
     font-size: 60px;
     font-family: "Montserrat", sans-serif;
-    color: #d2437a;
+    color: #41654B;
 }
 
-.headerContainer .leftSide p{
+.headerContainer .leftSide h2 {
     font-size: 28px;
     font-family: "Cherry Bomb One", system-ui;
     letter-spacing: 1px;
     margin-top: -10px;
-    color: #224653;
+    color: #D24379;
+}
+
+.headerContainer .leftSide p {
+    font-size: 18px;
+    font-family: "Montserrat", sans-serif;
+    font-weight:500;
+    color: #224654;
+    line-height: 27px;
+    margin-top: 25px;
+    padding-left: 30px;
 }
 
 .headerContainer .rightSide {
@@ -54,7 +65,8 @@
     height: 500px;
     width:fit-content;
     border-radius: 225px 225px 0 0;
-    box-shadow: 30px 30px #224653;
+    outline: 10px solid #fcfcfc;
+    box-shadow: 30px 30px #DDA3B9;
     object-position: center;
     transition: scale 0.5s;
     

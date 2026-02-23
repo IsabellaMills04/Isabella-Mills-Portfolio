@@ -8,7 +8,10 @@ function Home() {
       <div className="headerContainer">
         <div className="leftSide">
           <h1>Welcome</h1>
-          <p>to my portfolio!</p>
+          <h2>to my portfolio!</h2>
+          <p>I’m a Digital Media: Computer Science student passionate 
+            about creating modern, user-friendly web apps. Check out 
+            my work and the projects I’ve built along the way!</p>
         </div>
         <div className="rightSide">
             <img src={Isabella}/>
